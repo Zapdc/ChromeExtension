@@ -1,0 +1,15 @@
+{
+    "name": "TextToSpeech",
+    "version": "0.0.1",
+    "manifest_version": 3,
+    "description": "Select text to listen:)",
+    "icons":{
+        "128": "icon128.png",
+        "48": "icon48.png",
+        "16": "icon16.png"
+    },
+    "background":{
+        "service_worker": "extend.js"
+    },
+    "permissions":["tts","contextMenus","storage"]    
+}
